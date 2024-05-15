@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scrollable Table</title>
+<style>
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  th:first-child, td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+  }
+
+  th:last-child {
+    position: sticky;
+    right: 0;
+    background-color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<div style="overflow-x:auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Line 1</th>
+        <th>  </th>
+        <th>  </th>
+        <th>  </th>
+        <th>  </th>
+        <th>  </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Line 2</td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+      </tr>
+      <tr>
+        <td>Line 3</td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+        <td>  </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
