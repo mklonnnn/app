@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ttt</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    transition: width 1s;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.container:hover .sidebar {
+    width: 250px;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="#">Пункт меню 1</a></li>
+                <li><a href="#">Пункт меню 2</a></li>
+                <li><a href="#">Пункт меню 3</a></li>
+                <li><a href="#">Пункт меню 4</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Вміст сторінки</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id ultricies tortor.</p>
+            <p>Aliquam auctor, purus eget eleifend dignissim, felis velit feugiat dolor, nec molestie mauris nulla vel mi.</p>
+            <p>Praesent nec ligula vel dui consequat vehicula nec eget ex.</p>
+            <p>Integer ut ipsum eu erat faucibus tempus nec nec eros.</p>
+        </div>
+    </div>
+</body>
+</html>
