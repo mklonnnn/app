@@ -1,0 +1,17 @@
+.subscription-plan {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px;
+    cursor: pointer;
+    transition: width 1s, height 1s;
+}
+
+.subscription-plan:hover {
+    width: 250px;
+    height: 120px;
+}
