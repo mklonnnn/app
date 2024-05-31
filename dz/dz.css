@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: center;
+  }
+  
+  .n {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .n img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-wrap: wrap;
+      overflow-x: hidden;
+    }
+  
+    .n {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
