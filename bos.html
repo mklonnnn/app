@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WWWWWWWWWWWW</title>
+  <link href="bostrap/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Головна</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Профіль</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Налаштування</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Вийти</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Завантаження фото</h5>
+          <input type="file" class="form-control-file mb-2" id="profileImage">
+          <button class="btn btn-primary btn-block">Зберегти</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Дані</h5>
+          <form>
+            <div class="form-group">
+              <label for="firstName">імя</label>
+              <input type="text" class="form-control" id="firstName" >
+            </div>
+            <div class="form-group">
+              <label for="lastName">прізвище</label>
+              <input type="text" class="form-control" id="lastName" >
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" id="email" >
+            </div>
+            <div class="form-group">
+              <label for="phoneNumber">Номер</label>
+              <input type="tel" class="form-control" id="phoneNumber" >
+            </div>
+            <div class="form-group">
+              <label for="address">Адреса</label>
+              <input type="text" class="form-control" id="address">
+            </div>
+            <div class="form-group">
+              <label for="socialLink">посилання</label>
+              <input type="text" class="form-control" id="socialLink">
+            </div>
+            <button type="submit" class="btn btn-primary">Зберегти зміни</button>
+          </form>
+        </div>
+      </div>
+      <div class="card mt-4">
+        <div class="card-body">
+          <h5 class="card-title">Зміна паролю</h5>
+          <form>
+            <div class="form-group">
+              <label for="currentPassword">Поточний</label>
+              <input type="password" class="form-control" id="currentPassword" >
+            </div>
+            <div class="form-group">
+              <label for="newPassword">Новий</label>
+              <input type="password" class="form-control" id="newPassword">
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Підтвердіт</label>
+              <input type="password" class="form-control" id="confirmPassword">
+            </div>
+            <button type="submit" class="btn btn-primary">Змінити</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+section {
+    width: 80%;
+    max-width: 800px;
+    padding: 2em;
+    margin: 1em 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#serv {
+    background-color: var(--secondary-color);
+    color: white;
+}
+#pack {
+    background-color: #ecf0f1;
+}
+#contact {
+    background-color: #95a5a6;
+    color: white;
+}
+.zagol {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.cont {
+    font-size: 1.2em;
+}
